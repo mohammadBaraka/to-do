@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+
+}
+body{
+  background:#d63031;
+  margin: 0;
+}
+
+h2 {
+  background: #d63031;
+    padding:18px;
+    color:#ffffff;
+}
+
+.App{
+  padding:30px;
+  background: #FFF;
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 1px 2px 5px black
+}
+ input {
+   width:80%;
+   border: 0;
+   padding: 6px 10px;
+   background: #e8e8e8;
+ }
+
+ button {
+   width: 20%;
+   border: 0;
+   padding: 6px 0;
+   margin: 0;
+   outline: 0;
+   color:#fff;
+   font-weight: bold;
+   cursor: pointer;
+   background: #44bd32;
+ }
+
+ ul {
+   list-style-type: none;
+   padding: 0;
+ }
+
+ li {
+   margin: 15px 0;
+
+ }
+
+ li span{
+   color: #636e72;
+   width: 60%;
+   display: inline-block;
+
+ }
+
+ li > button:first-of-type{
+   background: #353b48;
+   color:#fff;
+   margin-right: 1%;
+   width: 19%;
+ }
+
+  li>button:last-of-type{
+    background: #d63031;
+    color:#fff;
+  }
+
+  ul > form {
+    margin: 15px 0 ;
+  }
